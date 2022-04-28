@@ -13,7 +13,7 @@ library(dplyr)
 library(here)
 
 # Read in the raw data for cases
-raw_case_data <- read_csv(here::here("inputs/data/Case_Death_data.csv"))
+raw_case_data <- read_csv(here::here("inputs/data/CDC_cases_data.csv"))
 
 ## Get the right attributes, omit any NAs, correct typings and names
 case_data <-
@@ -25,7 +25,7 @@ case_data$new_death <- as.integer(case_data$new_death)
 colnames(case_data) <- c("Date", "State", "new_case", "new_death", "tot_cases")
 
 # Read in the raw data for vaccines
-raw_vac_data <- read_csv(here::here("inputs/data/vaccine_data.csv"))
+raw_vac_data <- read_csv(here::here("inputs/data/CDC_vaccine_data.csv"))
 
 ## Get the right attributes and correct the names
 vac_data <-
