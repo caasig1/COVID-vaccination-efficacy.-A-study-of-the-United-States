@@ -1,7 +1,7 @@
 #### Preamble ####
 # Purpose: Creating and testing the model
 # Author: Isaac Ng
-# Data: April 26, 2022
+# Date: April 26, 2022
 # Contact: isaac.ng@mail.utoronto.ca
 
 #### Modelling ####
