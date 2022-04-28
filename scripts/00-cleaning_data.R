@@ -1,7 +1,7 @@
 #### Preamble ####
 # Purpose: Clean the survey data downloaded from CDC website (see references)
 # Author: Isaac Ng
-# Data: April 26, 2022
+# Date: April 26, 2022
 # Contact: isaac.ng@mail.utoronto.ca
 
 ### Workspace setup ###
